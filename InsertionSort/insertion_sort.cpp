@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int * selection_sort(int nums[], int size) {
+int * insertion_sort(int nums[], int size) {
     int temp;
     for(int i = 0; i < size; i++) {
         int temp = nums[i];
@@ -19,8 +19,12 @@ int * selection_sort(int nums[], int size) {
 
 int main () {
     int nums[] = {41, 23, 72, 1};
-    int *sorted = selection_sort(nums, 4);
-
+    cout << "Pre Sort:\n";
+    for(int i = 0; i < 4; i++) {
+        cout << nums[i] << endl;
+    } 
+    int *sorted = insertion_sort(nums, 4);
+    cout << "\nPre Sort:\n";
     for(int i = 0; i < 4; i++) {
         cout << sorted[i] << endl;
     } 
