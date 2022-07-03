@@ -1,0 +1,11 @@
+Insertion Sort
+
+    Time Complexity
+        Worst-Case: O(n^2)
+        Best-Case: O(n)
+        Average Case: O(n^2)
+
+    Space Complexity: O(1)
+    Stable: Yes
+
+    Pseudo Code
